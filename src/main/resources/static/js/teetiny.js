@@ -1,4 +1,4 @@
-<script src="jequry.js"></script>
+
 
 
 $(document).ready(function(){
