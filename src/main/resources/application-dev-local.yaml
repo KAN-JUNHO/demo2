@@ -1,0 +1,20 @@
+
+
+
+
+spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    check-template-location: true
+    suffix: .html
+    mode: HTML5
+    cache: false
+
+
+
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
