@@ -1,31 +1,32 @@
 
 nav{
+
     margin-left: 10px;
     margin-top:40px ;
     width: 10%;
     height: 500px;
-    background:grey;
+    background: #FCD1D1;
     float: top;
 }
 
 
 .gnb> li:hover{
-    background: #aaaaaa;
+    background: #ECE2E1;
 }
 
 
-nav:after{
-    content: "";
-    display: block;
-    clear: both;
+/*nav:after{*/
+/*    content: "";*/
+/*    display: block;*/
+/*    clear: both;*/
 
-}
+/*}*/
 
 .submenu{
     display: none;
     left: 0;
     width: 100%;
-    background: #aaaaaa;
+    background: #D3E0DC;
     color: black;
 
 }
