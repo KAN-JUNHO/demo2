@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+
+    list-style: none;
+}
+
+nav{
+    margin-left: 10px;
+    width: 10%;
+    height: 500px;
+    background: #FCD1D1;
+    float: left;
+}
+
+
+.gnb> li:hover{
+    background: #ECE2E1;
+}
+
+
+/*nav:after{*/
+/*    content: "";*/
+/*    display: block;*/
+/*    clear: both;*/
+
+/*}*/
+
+.submenu{
+    display: none;
+    left: 0;
+    width: 100%;
+    background: #D3E0DC;
+    color: black;
+
+}
