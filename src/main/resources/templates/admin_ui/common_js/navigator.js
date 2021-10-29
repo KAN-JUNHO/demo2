@@ -2,7 +2,7 @@
 
 
 $(document).ready(function() {
-    $( "nav" ).load( "navigator.html .gnb"  ,function (){
+    $( "nav" ).load( "../common_html/navigator.html .gnb"  ,function (){
         $(".gnb>li>a").click(function (){
             $(this).next().slideToggle();
             $(this).html(function (i,oldText){
