@@ -1,3 +1,4 @@
+<<<<<<< .mine
 $(document).ready(function() {
     // $("#member_info").load("member_info.html")
     // $("#character_info").load("character_info.html")
@@ -46,4 +47,33 @@ $(document).ready(function() {
             $("#mailbox").load("mailbox.html")
         }
     })
-});
+});||||||| .r0
+=======
+$(document).ready(function() {
+    // $("#member_info").load("member_info.html")
+    // $("#character_info").load("character_info.html")
+    $(".tab_title li").click(function() {
+        var idx = $(this).index();
+        // $("#member_info").load("member_info.html")
+        // $("#character_info").load("character_info.html")
+        // $("#skill").load("skill.html")
+        // $("#equipment").load("equipment.html")
+        // $("#stat").load("stat.html")
+        // $("#constellation").load("constellation.html")
+        // $("#seal").load("seal.html")
+        // $("#housing").load("housing.html")
+        // $("#mission").load("mission.html")
+        // $("#quest").load("quest.html")
+        // $("#mailbox").load("mailbox.html")
+
+        $(".tab_title li").removeClass("on");
+        $(".tab_title li").eq(idx).addClass("on");
+        $(".tab_cont > div").hide();
+        $(".tab_cont > div").eq(idx).show();
+
+        if (idx==0){
+            $("#character_info").load("character_info.html")
+        }
+
+    })
+});>>>>>>> .r14
