@@ -24,11 +24,13 @@
     border: 1px solid #dedede;
     height: 400px;
     background-color: #cecece;
+    overflow: scroll;
+
 }
 
 .tab_cont div {
     display: none;
-    text-align: center;
+
 }
 
 .tab_cont div.on {
