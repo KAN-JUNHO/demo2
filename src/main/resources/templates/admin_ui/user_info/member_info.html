@@ -9,6 +9,7 @@
         <script src="user_info.js"></script>
         <link rel="stylesheet" href="../common_css/header.css">
         <link rel="stylesheet" href="../common_css/navigator.css">
+        <link rel="stylesheet" href="../common_css/table.css">
         <link rel="stylesheet" href="user_info.css">
     </head>
 
@@ -35,51 +36,116 @@
     </ul>
     <div class="tab_cont">
         <div class="on" id="member_info">
-            <h5>[기기 정보]</h5>
-            <table border="1" class="table">
-                <th>플랫폼</th>
-                <th>기기 명(IP)</th>
-                <th>OS 버전</th>
-                <tr><!-- 첫번째 줄 시작 -->
-                    <td>Android</td>
-                    <td>Galaxy S10</td>
-                    <td>두번째 칸</td>
-                </tr><!-- 첫번째 줄 끝 -->
-                <tr><!-- 두번째 줄 시작 -->
-                    <td>첫번째 칸</td>
-                    <td>두번째 칸</td>
-                    <td>두번째 칸</td>
-                </tr><!-- 두번째 줄 끝 -->
+            <h5>[기본 정보]</h5>
+            <table class="table" align="center" width="800px">
+                <thead>
+                    <th>회원 번호</th>
+                    <th>게임 고유 ID</th>
+                    <th>계정 생성일시</th>
+                    <th>최종 접속시간</th>
+                    <th>계정 상태</th>
+                    <th>계정 탈퇴 대상</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2500000</td>
+                        <td>200002002</td>
+                        <td>2019/10/10 15:00:00</td>
+                        <td>2019/10/10 15:00:00</td>
+                        <td>이용 정지(욕설) 2019/10/10 15:00:00</td>
+                        <td>N</td>
+                    </tr>
+                </tbody>
             </table>
 
             <h5>[캐릭터 정보]</h5>
-            <table border="1" class="table">
-                <th>플랫폼</th>
-                <th>기기 명(IP)</th>
-                <th>OS 버전</th>
-                <tr><!-- 첫번째 줄 시작 -->
-                    <td>Android</td>
-                    <td>Galaxy S10</td>
-                    <td>두번째 칸</td>
-                </tr><!-- 첫번째 줄 끝 -->
-                <tr><!-- 두번째 줄 시작 -->
-                    <td>첫번째 칸</td>
-                    <td>두번째 칸</td>
-                    <td>두번째 칸</td>
-                </tr><!-- 두번째 줄 끝 -->
+            <table class="table" align="center" width="500px">
+                <thead>
+                    <th>캐릭터 ID</th>
+                    <th>닉네임</th>
+                    <th>공격대</th>
+                    <th>계정 생성 일시</th>
+                    <th>최종 접속 시간</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>112511246</td>
+                    <td>name1</td>
+                    <td>레드</td>
+                    <td>2019/10/10 15:00:00</td>
+                    <td>2019/10/10 15:00:00</td>
+                </tr>
+                <tr>
+                    <td>112511247</td>
+                    <td>name2</td>
+                    <td>블루</td>
+                    <td>2019/10/10 15:00:00</td>
+                    <td>2019/10/10 15:00:00</td>
+                </tr>
+                <tr>
+                    <td>112511246</td>
+                    <td>name3</td>
+                    <td>레드</td>
+                    <td>2019/10/10 15:00:00</td>
+                    <td>2019/10/10 15:00:00</td>
+                </tr>
+                </tbody>
             </table>
 
-            <table border="1" class="table">
-                <th>테이블</th>
-                <th>만들기</th>
-                <tr><!-- 첫번째 줄 시작 -->
-                    <td>첫번째 칸</td>
-                    <td>두번째 칸</td>
+            <h5>[버전 정보]</h5>
+            <table class="table" align="center" width="400px">
+                <thead>
+                <th>게임 버전</th>
+                <th>국가</th>
+                <th>언어(게임)</th>
+                <th>언어(시스템)</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1.0.0</td>
+                    <td>KOR</td>
+                    <td>EN</td>
+                    <td>KR</td>
                 </tr><!-- 첫번째 줄 끝 -->
-                <tr><!-- 두번째 줄 시작 -->
-                    <td>첫번째 칸</td>
-                    <td>두번째 칸</td>
-                </tr><!-- 두번째 줄 끝 -->
+                </tbody>
+            </table>
+
+            <h5>[기기 정보]</h5>
+            <table class="table" align="center" width="400px">
+                <thead>
+                <th>플랫폼</th>
+                <th>기기 명 (IP)</th>
+                <th>OS 버전</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Android</td>
+                    <td>Galaxy S10</td>
+                    <td>9.0.1</td>
+                </tr>
+                <tr>
+                    <td>PC</td>
+                    <td>10.20.4.44</td>
+                    <td>-</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <h5>[푸쉬 정보]</h5>
+            <table class="table" align="center" width="400px">
+                <thead>
+                    <th>푸시 동의</th>
+                    <th>야간 알림 동의</th>
+                    <th>상세 알림 설정</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>동의 2019/10/10 15:00:00</td>
+                    <td>거부 2019/10/10 15:00:00 </td>
+                    <td><button onclick=window.open("member_info_popup.html","popup","width=400,height=300")> 상세보기 </button></td>
+                </tr>
+
+                </tbody>
             </table>
         </div>
         <div id="character_info">asd1</div>

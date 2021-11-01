@@ -36,3 +36,8 @@
 .tab_cont div.on {
     display: block;
 }
+
+#member_info {
+    margin-top: 20px;
+    margin-left: 40px;
+}
