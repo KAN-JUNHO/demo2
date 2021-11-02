@@ -3,6 +3,9 @@
     width: auto;
     margin: 1px ;
 }
+.tab_title{
+    width: 100%;
+}
 
 .tab_title li {
     float: left;
@@ -22,22 +25,20 @@
 .tab_cont {
     clear: both;
     border: 1px solid #dedede;
-    height: 400px;
+    height: 450px;
+
     background-color: #cecece;
-    overflow: scroll;
+    overflow-y: scroll;
 
 }
 
 .tab_cont div {
     display: none;
-
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .tab_cont div.on {
     display: block;
 }
 
-#member_info {
-    margin-top: 20px;
-    margin-left: 40px;
-}
